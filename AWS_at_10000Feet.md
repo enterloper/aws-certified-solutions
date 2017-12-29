@@ -24,4 +24,27 @@
 ## AWS Global Infrastructure
 #### What is a Region? What is an Availabilty Zone?
 * A Region is a geographical area. Each Region consists of 2 (or more) Availability Zones.
-* An Availability Zone (AZ) is simply a Data Center.
+* An Availability Zone (AZ) is simply a Data Center. Always architect for failure by putting your resources in multiple AZs.
+#### What is an Edge Location?
+* Edge Locations are endpoints for AWS which are used for caching content. Typically this consists of CloudFront, Amazon's Content Delivery Network (CDN).
+* There are more Edge Locations than Regions.
+
+### EXAM TIPS
+Understand the difference between a region, an Availability Zone (AZ) and an Edge Location.
+* A Region is a physical location in the world which consists of two or more Availability Zones (AZs).
+* An AZ is one or more discrete data centers, each with redundant power, networking and connectivity, housed in separate facilities.
+* Edge Locations are endpoints for AWS which are used for caching content. Typically this consists of CloudFront, Amazon's Content Delivery Network (CDN).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
