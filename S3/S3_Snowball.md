@@ -1,5 +1,9 @@
 # Snowball
 
+###Import/Export Disk 
+#####(the *old* way of offline data transfer)
+Aws Import/Export Disk accelerates moving large amounts of data into and out of the AWS cloud using portable storage devices for transport.
+AWS Import/Export Disk transfers your data directly onto and off of storage devices using Amazon's high-speed internal network and bypassing the Internet.
 ##### Types of Snowballs:
 * Snowball
 * Snowball Edge
@@ -22,3 +26,17 @@ or to support local workloads in remote or offline locations.
 
 Snowball Edge connect to your existing applications and infrastructure using standard storage interfaces, which allows you to streamline the data transfer process and minimizing setup and intergration.
 Snowball Edge can cluster together to form a local storage tier and process your data on-premises, helping ensure your applications continue to run even when they are not able to access the cloud.
+
+### What is Snowmobile?
+
+AWS Snowmobile is an Exabyte-scale data transfer service used to move extremely large amounts of data to AWS.
+You can transfer up to 100PB per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semi-trailer truck.
+Snowmobile makes it easy to move massive volumes of data to the cloud, including video libraries, image repositories, or even a complete data center migration.
+Transferring data with Snowmobile is secure, fast and cost effective.
+
+###Exam Tips:
+* Understand what Snowball is
+* Understand what Import Export is
+* Snowball Can
+    * Import to S3
+    * Export from S3
