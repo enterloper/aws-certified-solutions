@@ -101,7 +101,15 @@ Now that your index.html is created, you can check your instance by starting you
 Now, head over to your browser of choice and in the address bar enter in the **public IP** that we used before and you should see "This is a test!"
 on the page! If you're still skeptical you set up your address, you can check on a different computer to insure that yup, you made a webpage!
 
-### Lab Summary
+#### Additional commands:
+
+* To check if the **Apache** service is running enter `service httpd status`
+* To start **Apache** service enter `service httpd start`
+* To install **Apache** enter `yum install httpd -y`
+* To ensure that your **Apache** service automatically starts in the event your EC2 instance has to reboot/restart, enter `chkconfig httpd on` 
+
+### Lab Summary 
+
 * Termination Protection is turned off by default, you must turn it on.
 * On an EBS-backed instance, the default action is for the root EBS volume to be deleted when the instance is terminated.
 * EBS Root Volumes of your **DEFAULT AMI's** cannot be encrypted. 
